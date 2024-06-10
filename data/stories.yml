@@ -1,0 +1,43 @@
+version: "3.1"
+stories:
+
+- story: preguntar_causas
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: seleccionar_enfermedad
+  - action: action_confirmar_enfermedad
+  - intent: preguntar_causas
+  - action: action_responder_causas
+
+- story: preguntar_diagnostico
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: seleccionar_enfermedad
+  - action: action_confirmar_enfermedad
+  - intent: preguntar_diagnostico
+  - action: action_responder_diagnostico
+
+- story: preguntar_tratamiento
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: seleccionar_enfermedad
+  - action: action_confirmar_enfermedad
+  - intent: preguntar_tratamiento
+  - action: action_responder_tratamiento
+
+- story: preguntar_mejora
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: seleccionar_enfermedad
+  - action: action_confirmar_enfermedad
+  - intent: preguntar_mejora
+  - action: action_responder_mejora
+
+- story: despedida
+  steps:
+  - intent: despedirse
+  - action: utter_despedirse
