@@ -1,0 +1,101 @@
+version: "3.1"
+nlu:
+- intent: saludar
+  examples: |
+    - hola
+    - holi
+    - qué tal?
+    - cómo va?
+    - cómo estás?
+    - hola, cómo va?
+    - hola, qué tal?
+    - hola, cómo estás?
+    - buenas
+    - buenos días
+    - buenas tardes
+    - buenas noches
+    - saludos
+    - buen día
+    - buena tarde
+    - buena noche
+    
+- intent: despedirse
+  examples: |
+    - adiós
+    - chao
+    - ciao
+    - nos vemos
+    - hasta luego
+    - que tengas un buen día
+    - bueno, adiós
+    - venga, adiós
+    - gracias, adiós
+
+- intent: seleccionar_enfermedad
+  examples: |
+    - Me diagnosticaron [anemia por deficiencia de hierro](enfermedad)
+    - Me han diagnosticado [anemia por deficiencia de hierro](enfermedad)
+    - Tengo [esferocitosis](enfermedad)
+    - Estoy diagnosticado con [talasemia beta](enfermedad)
+    - El diagnóstico es [anemia por deficiencia de hierro](enfermedad)
+    - [anemia por deficiencia de hierro](enfermedad)
+    - Me dijeron que tengo [talasemia beta](enfermedad)
+    - [esferocitosis](enfermedad)
+    - [policitemia vera](enfermedad)
+    - Me han diagnosticado [policitemia vera](enfermedad)
+    - [anemia de células falciformes](enfermedad)
+    - El diagnostico es [ anemia de células falciformes](enfermedad)
+    - Me diagnosticaron [anemia hemolítica](enfermedad)
+    - Me han diagnosticado [anemia hemolítica](enfermedad)
+    - Tengo [deficiencia de la vitamina B12](enfermedad)
+    - Estoy diagnosticada con [deficiencia de la vitamina B12](enfermedad)
+    - El diagnóstico es [cirrosis](enfermedad)
+    - [cirrosis](enfermedad)
+    - [deficiencia de piruvato quinasa](enfermedad)
+    - Me han diagnosticado [deficiencia de piruvato quinasa](enfermedad)
+    - [deficiencia de ácido fólico](enfermedad)
+    - Me diagnosticaron [deficiencia de ácido fólico](enfermedad)
+
+- intent: preguntar_causas
+  examples: |
+    - ¿Cuáles son las causas de la enfermedad?
+    - ¿Qué causa esta enfermedad?
+    - Dime las causas de esta enfermedad
+    - ¿Por qué se produce?
+
+- intent: preguntar_tratamiento
+  examples: |
+    - ¿Cuál es el tratamiento para la enfermedad?
+    - ¿Cómo se trata esta enfermedad?
+    - Dime el tratamiento de la enfermedad
+
+- intent: preguntar_diagnostico
+  examples: |
+    - ¿Cuál es el diagnostico para la enfermedad?
+    - ¿Cómo se diagnostica esta enfermedad?
+    - Dime el diagnostico de la enfermedad
+
+- intent: preguntar_mejora
+  examples: |
+    - ¿Qué posibilidades de mejorar tengo?
+    - ¿Cómo se puede mejorar la enfermedad?
+    - Háblame sobre la mejora de esta enfermedad
+    - ¿Qué puedo hacer para sentirme mejor?
+    - ¿Qué medidas puedo tomar para mejorar?
+
+- intent: bot_challenge
+  examples: |
+    - eres un bot?
+    - eres humano?
+    - eres una persona?
+    - estoy hablando con un bot?
+    - estoy hablando con un humano?
+    - estoy hablando con una persona?
+
+- intent: out_of_scope
+  examples: |
+    - qué hora es en Berlín?
+    - quiero leer un periódico
+    - quiero saber qué tiempo hace
+    - no sé qué quiero 
+    - quiero comprar un coche
