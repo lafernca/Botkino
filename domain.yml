@@ -1,0 +1,50 @@
+version: '3.1'
+
+intents:
+  - saludar
+  - despedirse
+  - preguntar_causas
+  - preguntar_diagnostico
+  - preguntar_mejora
+  - preguntar_tratamiento
+  - seleccionar_enfermedad
+  - bot_challenge
+  - out_of_scope
+
+entities:
+  - enfermedad
+
+slots:
+  enfermedad:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: enfermedad
+      
+actions:
+  - action_confirmar_enfermedad
+  - action_responder_causas
+  - action_responder_tratamiento
+  - action_responder_diagnostico
+  - action_responder_mejora
+
+responses:
+  utter_saludar:
+    - text: "¡Hola! Soy un bot de Barkino Technologies S.L. ¿Con qué enfermedad te han diagnosticado?"
+  utter_despedirse:
+    - text: "Hasta la próxima."
+  utter_iamabot:
+    - text: "Soy un bot de Barkino Technologies S.L."
+  utter_confirmar_enfermedad:
+    - text: "Entendido. Te han diagnosticado con {enfermedad}. ¿Qué quieres saber?"
+  utter_responder_causas_default:
+    - text: "No tengo información específica sobre las causas de {enfermedad} en este momento."
+  utter_responder_tratamiento_default:
+    - text:  "No tengo información específica sobre el tratamiento de {enfermedad} en este momento."
+  utter_responder_diagnostico_default:
+    - text: "No tengo información específica sobre el diagnóstico de {enfermedad} en este momento."
+  utter_responder_mejora_default:
+    - text: "No tengo información específica sobre la mejora de {enfermedad} en este momento."
+  utter_out_of_scope:
+    - text: "Lo siento, pero desconozco lo que pides."
