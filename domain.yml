@@ -47,4 +47,4 @@ responses:
   utter_responder_mejora_default:
     - text: "No tengo información específica sobre la mejora de {enfermedad} en este momento."
   utter_out_of_scope:
-    - text: "Lo siento, pero desconozco lo que pides."
+    - text: "Lo siento, pero desconozco lo que pides. Me puedes preguntar sobre las causas, el tratamiento, el diagnóstico y la mejora de tu enfermedad."
