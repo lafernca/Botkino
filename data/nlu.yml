@@ -58,22 +58,108 @@ nlu:
 
 - intent: preguntar_causas
   examples: |
-    - ¿Cuáles son las causas de la enfermedad?
-    - ¿Qué causa esta enfermedad?
-    - Dime las causas de esta enfermedad
     - ¿Por qué se produce?
+    - ¿Cuál es el origen de esta enfermedad?
+    - ¿Cómo se origina esta enfermedad?
+    - ¿Por qué sucede esto?
+    - ¿Qué provoca esta condición?
+    - ¿Por qué ocurre esta enfermedad?
+    - ¿Cuáles son los motivos de esta enfermedad?
+    - ¿De dónde viene esta enfermedad?
+    - ¿Qué genera esta enfermedad?
+    - ¿Qué factores causan esta enfermedad?
+    - ¿Cuál es la causa principal de esta enfermedad?
+    - ¿Por qué se origina esta condición?
+    - ¿Cuál es la razón de esta enfermedad?
+    - ¿Qué hace que aparezca esta enfermedad?
+    - ¿Cómo se desarrolla esta enfermedad?
+    - ¿Qué desencadena esta enfermedad?
+    - ¿Qué razones hay detrás de esta enfermedad?
+    - ¿Qué produce esta enfermedad?
+    - ¿Cuáles son las razones de esta enfermedad?
+    - ¿De qué manera se produce esta enfermedad?
+    - Quiero saber cuáles son las causas
+    - Me gustaría saber las causas de esta enfermedad
+    - Quiero conocer las causas de esta enfermedad
+    - Necesito saber las causas de esta enfermedad
+    - Podrías decirme las causas de esta enfermedad
+    - Deseo saber qué causa esta enfermedad
+    - Estoy interesado en saber las causas de esta enfermedad
+    - Cuéntame por qué se produce esta enfermedad
+    - Explícame las causas de esta enfermedad
+    - Quisiera saber qué origina esta enfermedad
+    - Quiero información sobre las causas de esta enfermedad
+    - Dime por qué ocurre esta enfermedad
+    - Necesito conocer el origen de esta enfermedad
+    - Me podrías explicar las causas de esta enfermedad
 
 - intent: preguntar_tratamiento
   examples: |
     - ¿Cuál es el tratamiento para la enfermedad?
     - ¿Cómo se trata esta enfermedad?
     - Dime el tratamiento de la enfermedad
+    - ¿Qué tratamiento se usa para esta enfermedad?
+    - ¿Cuál es el mejor tratamiento para esta enfermedad?
+    - ¿Cómo puedo tratar esta enfermedad?
+    - ¿Qué métodos hay para tratar esta enfermedad?
+    - ¿Qué terapia se utiliza para esta enfermedad?
+    - ¿Qué tipo de tratamiento se recomienda para esta enfermedad?
+    - ¿Cómo se maneja esta enfermedad?
+    - ¿Cuál es el tratamiento recomendado para esta enfermedad?
+    - ¿Qué tratamiento sugieres para esta enfermedad?
+    - ¿Qué se puede hacer para tratar esta enfermedad?
+    - Quiero saber el tratamiento de esta enfermedad
+    - Necesito saber cómo tratar esta enfermedad
+    - Me gustaría conocer el tratamiento para esta enfermedad
+    - ¿Qué pasos hay que seguir para tratar esta enfermedad?
+    - ¿Qué opciones de tratamiento hay para esta enfermedad?
+    - ¿Qué tratamientos están disponibles para esta enfermedad?
+    - ¿Qué debo hacer para tratar esta enfermedad?
+    - ¿Cuál es la manera de tratar esta enfermedad?
+    - Quiero información sobre el tratamiento de esta enfermedad
+    - Explícame cómo se trata esta enfermedad
+    - ¿Cuáles son las opciones de tratamiento para esta enfermedad?
+    - Necesito conocer el tratamiento para esta enfermedad
+    - Quisiera saber cómo se trata esta enfermedad
+    - ¿Qué tratamientos existen para esta enfermedad?
+    - ¿Qué cuidados se deben tener para tratar esta enfermedad?
+    - ¿Cuál es el procedimiento para tratar esta enfermedad?
+    - ¿Cuál es la cura para esta enfermedad?
+    - ¿Qué tratamiento debo seguir para esta enfermedad?
 
 - intent: preguntar_diagnostico
   examples: |
-    - ¿Cuál es el diagnostico para la enfermedad?
+    - ¿Cuál es el diagnóstico para la enfermedad?
     - ¿Cómo se diagnostica esta enfermedad?
-    - Dime el diagnostico de la enfermedad
+    - Dime el diagnóstico de la enfermedad
+    - ¿Qué pruebas se realizan para diagnosticar esta enfermedad?
+    - ¿Cuál es el procedimiento de diagnóstico para esta enfermedad?
+    - ¿Qué métodos se utilizan para diagnosticar esta enfermedad?
+    - ¿Cómo puedo saber si tengo esta enfermedad?
+    - ¿Qué exámenes se deben hacer para diagnosticar esta enfermedad?
+    - ¿Qué pasos se siguen para diagnosticar esta enfermedad?
+    - ¿Cuál es el proceso de diagnóstico para esta enfermedad?
+    - ¿Qué técnicas se utilizan para diagnosticar esta enfermedad?
+    - ¿Cómo se puede detectar esta enfermedad?
+    - ¿Cómo se identifica esta enfermedad?
+    - ¿Qué procedimientos de diagnóstico existen para esta enfermedad?
+    - ¿Cuáles son las pruebas necesarias para diagnosticar esta enfermedad?
+    - Quiero saber cómo se diagnostica esta enfermedad
+    - Necesito saber el diagnóstico para esta enfermedad
+    - Me gustaría conocer el diagnóstico de esta enfermedad
+    - ¿Qué herramientas se usan para diagnosticar esta enfermedad?
+    - ¿Qué análisis se hacen para diagnosticar esta enfermedad?
+    - ¿Qué estudio se realiza para diagnosticar esta enfermedad?
+    - ¿Cómo se confirma el diagnóstico de esta enfermedad?
+    - ¿Qué pruebas son necesarias para diagnosticar esta enfermedad?
+    - Explícame cómo se diagnostica esta enfermedad
+    - ¿Qué evaluaciones se hacen para diagnosticar esta enfermedad?
+    - Quisiera saber cómo se diagnostica esta enfermedad
+    - ¿Qué diagnóstico se da para esta enfermedad?
+    - ¿Cómo se determina el diagnóstico de esta enfermedad?
+    - ¿Qué pasos se toman para diagnosticar esta enfermedad?
+    - ¿Qué pruebas diagnósticas se utilizan para esta enfermedad?
+    - ¿Cuál es el método de diagnóstico para esta enfermedad?
 
 - intent: preguntar_mejora
   examples: |
@@ -82,20 +168,117 @@ nlu:
     - Háblame sobre la mejora de esta enfermedad
     - ¿Qué puedo hacer para sentirme mejor?
     - ¿Qué medidas puedo tomar para mejorar?
+    - ¿Cómo puedo mejorar mi condición?
+    - ¿Qué tratamientos ayudan a mejorar esta enfermedad?
+    - ¿Qué pasos debo seguir para mejorar?
+    - ¿Qué puedo hacer para mejorar mi salud?
+    - ¿Qué opciones tengo para sentirme mejor?
+    - ¿Cómo puedo acelerar mi recuperación?
+    - ¿Qué estrategias puedo utilizar para mejorar?
+    - ¿Cómo puedo manejar mejor mi enfermedad?
+    - ¿Qué cambios puedo hacer para mejorar?
+    - ¿Qué puedo hacer para mejorar mi bienestar?
+    - ¿Qué recomendaciones hay para mejorar mi estado?
+    - ¿Qué puedo hacer para mejorar mis síntomas?
+    - ¿Qué puedo hacer para tener una mejoría?
+    - ¿Cómo puedo lograr una mejoría en mi salud?
+    - ¿Qué consejos hay para mejorar mi condición?
+    - ¿Cómo puedo sentirme mejor con esta enfermedad?
+    - ¿Qué tratamientos pueden mejorar mi condición?
+    - ¿Cómo puedo aumentar mis posibilidades de mejora?
+    - Quiero saber cómo mejorar con esta enfermedad
+    - ¿Qué debo hacer para mejorar mi enfermedad?
+    - ¿Qué puedo hacer para mejorar mi situación?
+    - ¿Cómo puedo optimizar mi recuperación?
+    - ¿Qué acciones puedo tomar para mejorar?
+    - ¿Cómo puedo gestionar mejor mi enfermedad para mejorar?
+    - ¿Qué técnicas puedo usar para mejorar?
+    - ¿Qué sugerencias tienes para que me sienta mejor?
+    - ¿Qué terapias ayudan a mejorar esta enfermedad?
+    - ¿Cómo puedo tratar de mejorar?
+    - ¿Qué debo evitar para mejorar?
+    - ¿Qué hábitos debo adoptar para mejorar?
 
 - intent: bot_challenge
   examples: |
-    - eres un bot?
-    - eres humano?
-    - eres una persona?
-    - estoy hablando con un bot?
-    - estoy hablando con un humano?
-    - estoy hablando con una persona?
+    - ¿Eres un bot?
+    - ¿Eres humano?
+    - ¿Eres una persona?
+    - ¿Estoy hablando con un bot?
+    - ¿Estoy hablando con un humano?
+    - ¿Estoy hablando con una persona?
+    - ¿Eres una máquina?
+    - ¿Eres un asistente virtual?
+    - ¿Eres real?
+    - ¿Eres un robot?
+    - ¿Eres inteligencia artificial?
+    - ¿Eres un programa?
+    - ¿Eres una inteligencia artificial?
+    - ¿Eres un sistema automatizado?
+    - ¿Eres un chatbot?
+    - ¿Eres un software?
+    - ¿Estoy interactuando con un bot?
+    - ¿Estoy chateando con un bot?
+    - ¿Esto es un bot?
+    - ¿Este chat es con un bot?
+    - ¿Este servicio es automático?
+    - ¿Eres un servicio automatizado?
+    - ¿Estoy hablando con inteligencia artificial?
+    - ¿Eres un agente automatizado?
+    - ¿Esto es inteligencia artificial?
+    - ¿Estoy hablando con una máquina?
+    - ¿Eres un sistema automático?
+    - ¿Este chat es con una máquina?
+    - ¿Este chat es con inteligencia artificial?
+    - ¿Eres un algoritmo?
+    - ¿Eres un sistema inteligente?
+    - ¿Eres una computadora?
+    - ¿Este servicio es un bot?
+    - ¿Esta conversación es con un bot?
 
 - intent: out_of_scope
   examples: |
-    - qué hora es en Berlín?
-    - quiero leer un periódico
-    - quiero saber qué tiempo hace
-    - no sé qué quiero 
-    - quiero comprar un coche
+    - ¿Qué hora es en Berlín?
+    - Quiero leer un periódico
+    - Quiero saber qué tiempo hace
+    - No sé qué quiero
+    - Quiero comprar un coche
+    - ¿Cuál es la capital de Francia?
+    - ¿Cómo se llama el presidente de Estados Unidos?
+    - ¿Cuál es la población de Japón?
+    - ¿Cuántos kilómetros hay de Madrid a Barcelona?
+    - ¿Cuánto cuesta un vuelo a Londres?
+    - ¿Qué día es hoy?
+    - ¿Cuál es el clima en Nueva York?
+    - ¿Cuál es la distancia de la Tierra a la Luna?
+    - ¿Qué películas hay en el cine?
+    - ¿Dónde está la Torre Eiffel?
+    - ¿Quién ganó el último partido de fútbol?
+    - ¿Qué libros me recomiendas?
+    - ¿Cómo está el tráfico en la ciudad?
+    - ¿Dónde puedo encontrar una buena pizzería?
+    - ¿Cuál es el mejor hotel en París?
+    - ¿Qué eventos hay este fin de semana?
+    - ¿Dónde puedo aprender a tocar la guitarra?
+    - ¿Cuál es el último modelo de iPhone?
+    - ¿Qué música está de moda?
+    - ¿Cómo se dice 'hola' en japonés?
+    - ¿Dónde puedo comprar ropa barata?
+    - ¿Cuál es el mejor restaurante de sushi?
+    - ¿Qué ofertas hay en el supermercado?
+    - ¿Cómo puedo llegar al aeropuerto?
+    - ¿Cuándo es el próximo feriado?
+    - ¿Qué puedo hacer para perder peso?
+    - ¿Cuál es el mejor lugar para vacaciones?
+    - ¿Qué debo estudiar para ser médico?
+    - ¿Cuál es el teléfono de atención al cliente de mi banco?
+    - ¿Cómo se prepara una paella?
+    - ¿Qué día empieza el verano?
+    - ¿Cuál es la capital de Australia?
+    - ¿Dónde está la farmacia más cercana?
+    - ¿Qué número debo marcar en caso de emergencia?
+    - ¿Cuánto cuesta una entrada al cine?
+    - ¿Cómo está el mercado de valores hoy?
+    - ¿Qué recetas de cocina me recomiendas?
+    - ¿Cómo puedo hacer una reserva en un restaurante?
+    - ¿Qué lugares turísticos debo visitar en Roma?
