@@ -131,6 +131,7 @@ nlu:
 - intent: preguntar_diagnostico
   examples: |
     - ¿Cuál es el diagnóstico para la enfermedad?
+    - síntomas
     - ¿Cómo se diagnostica esta enfermedad?
     - Dime el diagnóstico de la enfermedad
     - ¿Qué pruebas se realizan para diagnosticar esta enfermedad?
