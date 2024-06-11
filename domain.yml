@@ -31,20 +31,20 @@ actions:
 
 responses:
   utter_saludar:
-    - text: "¡Hola! Soy un bot de Barkino Technologies S.L. ¿Con qué enfermedad te han diagnosticado?\nLas opciones son:\n- Anemia por deficiencia de hierro\n- Talasemia beta\n- Esferocitosis\n- Policitemia vera\n- Células falciformes\n- Anemia hemolítica\n- Deficiencia de la vitamina B12\n- Cirrosis\n- Deficiencia de piruvato quinasa\n- Deficiencia de ácido fólico."
+    - text: "¡Hola! Soy un bot de Barkino Technologies S.L. ¿Con qué enfermedad te han diagnosticado?\nLas opciones son:\n- Anemia por deficiencia de hierro\n- Talasemia beta\n- Esferocitosis\n- Policitemia vera\n- Células falciformes\n- Anemia hemolítica\n- Deficiencia de la vitamina B12\n- Cirrosis\n- Deficiencia de piruvato quinasa\n- Deficiencia de ácido fólico.\nEs importante que escribas correctamente e incluso con tildes."
   utter_despedirse:
     - text: "Hasta la próxima."
   utter_iamabot:
     - text: "Soy un bot de Barkino Technologies S.L."
   utter_confirmar_enfermedad:
-    - text: "Entendido. Te han diagnosticado con {enfermedad}. ¿Qué quieres saber?"
+    - text: "Entendido. Te han diagnosticado con {enfermedad}.\n¿Qué quieres saber?\nMe puedes preguntar sobre las causas, el tratamiento, el diagnóstico y la mejora de tu enfermedad.\nPor ejemplo: quiero saber las causas.\nEs importante que escribas correctamente e incluso con tildes."
   utter_responder_causas_default:
-    - text: "No tengo información específica sobre las causas de {enfermedad} en este momento.\nPor favor, prueba con las siguientes enfermedades:\n- Anemia por deficiencia de hierro\n- Talasemia beta\n- Esferocitosis\n- Policitemia vera\n- Células falciformes\n- Anemia hemolítica\n- Deficiencia de la vitamina B12\n- Cirrosis\n- Deficiencia de piruvato quinasa\n- Deficiencia de ácido fólico."
+    - text: "No tengo información específica sobre las causas de {enfermedad} en este momento.\nPor favor, prueba con las siguientes enfermedades:\n- Anemia por deficiencia de hierro\n- Talasemia beta\n- Esferocitosis\n- Policitemia vera\n- Células falciformes\n- Anemia hemolítica\n- Deficiencia de la vitamina B12\n- Cirrosis\n- Deficiencia de piruvato quinasa\n- Deficiencia de ácido fólico.\nEs importante que escribas correctamente e incluso con tildes."
   utter_responder_tratamiento_default:
-    - text:  "No tengo información específica sobre el tratamiento de {enfermedad} en este momento.\nPor favor, prueba con las siguientes enfermedades:\n- Anemia por deficiencia de hierro\n- Talasemia beta\n- Esferocitosis\n- Policitemia vera\n- Células falciformes\n- Anemia hemolítica\n- Deficiencia de la vitamina B12\n- Cirrosis\n- Deficiencia de piruvato quinasa\n- Deficiencia de ácido fólico."
+    - text:  "No tengo información específica sobre el tratamiento de {enfermedad} en este momento.\nPor favor, prueba con las siguientes enfermedades:\n- Anemia por deficiencia de hierro\n- Talasemia beta\n- Esferocitosis\n- Policitemia vera\n- Células falciformes\n- Anemia hemolítica\n- Deficiencia de la vitamina B12\n- Cirrosis\n- Deficiencia de piruvato quinasa\n- Deficiencia de ácido fólico.\nEs importante que escribas correctamente e incluso con tildes."
   utter_responder_diagnostico_default:
-    - text: "No tengo información específica sobre el diagnóstico de {enfermedad} en este momento.\nPor favor, prueba con las siguientes enfermedades:\n- Anemia por deficiencia de hierro\n- Talasemia beta\n- Esferocitosis\n- Policitemia vera\n- Células falciformes\n- Anemia hemolítica\n- Deficiencia de la vitamina B12\n- Cirrosis\n- Deficiencia de piruvato quinasa\n- Deficiencia de ácido fólico."
+    - text: "No tengo información específica sobre el diagnóstico de {enfermedad} en este momento.\nPor favor, prueba con las siguientes enfermedades:\n- Anemia por deficiencia de hierro\n- Talasemia beta\n- Esferocitosis\n- Policitemia vera\n- Células falciformes\n- Anemia hemolítica\n- Deficiencia de la vitamina B12\n- Cirrosis\n- Deficiencia de piruvato quinasa\n- Deficiencia de ácido fólico.\nEs importante que escribas correctamente e incluso con tildes."
   utter_responder_mejora_default:
-    - text: "No tengo información específica sobre la mejora de {enfermedad} en este momento.\nPor favor, prueba con las siguientes enfermedades:\n- Anemia por deficiencia de hierro\n- Talasemia beta\n- Esferocitosis\n- Policitemia vera\n- Células falciformes\n- Anemia hemolítica\n- Deficiencia de la vitamina B12\n- Cirrosis\n- Deficiencia de piruvato quinasa\n- Deficiencia de ácido fólico."
+    - text: "No tengo información específica sobre la mejora de {enfermedad} en este momento.\nPor favor, prueba con las siguientes enfermedades:\n- Anemia por deficiencia de hierro\n- Talasemia beta\n- Esferocitosis\n- Policitemia vera\n- Células falciformes\n- Anemia hemolítica\n- Deficiencia de la vitamina B12\n- Cirrosis\n- Deficiencia de piruvato quinasa\n- Deficiencia de ácido fólico.\nEs importante que escribas correctamente e incluso con tildes."
   utter_out_of_scope:
-    - text: "Lo siento, pero desconozco lo que pides.\nMe puedes preguntar sobre las causas, el tratamiento, el diagnóstico y la mejora de tu enfermedad.\n Por ejemplo: quiero saber las causas."
+    - text: "Lo siento, pero desconozco lo que pides.\nMe puedes preguntar sobre las causas, el tratamiento, el diagnóstico y la mejora de tu enfermedad.\nPor ejemplo: quiero saber las causas.\nEs importante que escribas correctamente e incluso con tildes."
