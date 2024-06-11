@@ -59,6 +59,7 @@ nlu:
 - intent: preguntar_causas
   examples: |
     - ¿Por qué se produce?
+    - características
     - ¿Cuál es el origen de esta enfermedad?
     - ¿Cómo se origina esta enfermedad?
     - ¿Por qué sucede esto?
