@@ -33,12 +33,12 @@ nlu:
 
 - intent: seleccionar_enfermedad
   examples: |
-    - Me diagnosticaron [anemia por deficiencia de hierro](enfermedad)
-    - Me han diagnosticado [anemia por deficiencia de hierro](enfermedad)
+    - Me diagnosticaron [anemia](enfermedad)
+    - Me han diagnosticado [anemia](enfermedad)
     - Tengo [esferocitosis](enfermedad)
     - Estoy diagnosticado con [talasemia beta](enfermedad)
-    - El diagnóstico es [anemia por deficiencia de hierro](enfermedad)
-    - [anemia por deficiencia de hierro](enfermedad)
+    - El diagnóstico es [anemia](enfermedad)
+    - [anemia](enfermedad)
     - Me dijeron que tengo [talasemia beta](enfermedad)
     - [esferocitosis](enfermedad)
     - [policitemia vera](enfermedad)
