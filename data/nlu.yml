@@ -60,7 +60,7 @@ nlu:
   examples: |
     - ¿Por qué se produce?
     - características
-    - síntomas
+    - ¿Cuáles son las características?
     - ¿Cuál es el origen de esta enfermedad?
     - ¿Cómo se origina esta enfermedad?
     - ¿Por qué sucede esto?
@@ -132,6 +132,8 @@ nlu:
 - intent: preguntar_diagnostico
   examples: |
     - ¿Cuál es el diagnóstico para la enfermedad?
+    - síntomas
+    - ¿Cuáles son los síntomas?
     - ¿Cómo se diagnostica esta enfermedad?
     - Dime el diagnóstico de la enfermedad
     - ¿Qué pruebas se realizan para diagnosticar esta enfermedad?
