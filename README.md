@@ -6,7 +6,7 @@ Este es un bot desarrollado por una estudiante del Máster en Procesamiento del 
 # Descripción del proyecto
 
 El propósito primordial de este estudio es contribuir de manera significativa al campo de la salud digital mediante la creación de un prototipo de chatbot diseñado específicamente para pacientes diagnosticados con alguna de las diez enfermedades detectables por el dispositivo innovador desarrollado por Barkino. Las diez enfermedades son:
-- Anemia por deficiencia de hierro
+- Anemia
 - Talasemia beta
 - Esferocitosis
 - Policitemia vera
